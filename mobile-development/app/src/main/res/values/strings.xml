@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HadirAI</string>
+    <string name="menu_home">menu home</string>
+    <string name="hero1">Nick the Night and Day</string>
+    <string name="description1">The Jetpack Hero</string>
+    <string name="profile">profile</string>
+    <string name="history">history</string>
+    <string name="home">home</string>
+</resources>
