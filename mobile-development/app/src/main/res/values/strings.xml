@@ -1,9 +1,67 @@
 <resources>
     <string name="app_name">HadirAI</string>
-    <string name="menu_home">menu home</string>
-    <string name="hero1">Nick the Night and Day</string>
-    <string name="description1">The Jetpack Hero</string>
-    <string name="profile">profile</string>
-    <string name="history">history</string>
-    <string name="home">home</string>
+    <string name="name_format">%1$s | %2$s</string>
+
+    <string name="masukkan_email_anda">Masukkan email Anda</string>
+    <string name="alamat_email_tidak_valid">Email address is not valid</string>
+    <string name="masukkan_password_anda">Masukkan password Anda</string>
+    <string name="error_password">Password must be at least 8 characters</string>
+
+    <!-- Daily Reminder -->
+    <string name="reminder_header">Reminder</string>
+    <string name="pref_key_notify">key_notification</string>
+    <string name="pref_notify_summary">Daily Reminder at 7.00 am.</string>
+    <string name="pref_notify_name">Notification</string>
+
+    <!-- Night Mode Preferences -->
+    <string name="display_header">Display</string>
+    <string name="pref_dark_title">Dark mode</string>
+    <string name="pref_key_dark" translatable="false">key_dark_mode</string>
+    <string name="pref_dark_auto" translatable="false">auto</string>
+    <string name="pref_dark_on" translatable="false">on</string>
+    <string name="pref_dark_off" translatable="false">off</string>
+    <string name="dark_mode_auto">Automatic</string>
+    <string name="dark_mode_on">Dark mode</string>
+    <string name="dark_mode_off">Light mode</string>
+
+    <!--Setting-->
+    <string name="time_format">%1$s, %2$s - %3$s</string>
+    <string name="notification_message_format">Hello %1$s. Don\'t forget to mark your attendance today!</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!--Welcome Page-->
+
+    <string name="deskripsi_hadirai">Deskripsi HadirAI</string>
+
+
+    <!--Sign Up Page-->
+    <string name="nama">Nama</string>
+    <string name="id_user">ID User</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="logo_hadirai">Logo HadirAI</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nama_card_format">Nama :%1$s \n ID User : %2$s \n %3$s %4$s</string>
+
+<!--    Welcome Page-->
+    <string name="welcome_to_hadirai">Welcome to HadirAI</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+<!--    LoginSignup-->
+    <string name="input_your_email">Input your email</string>
+    <string name="input_your_user_id">Input your user ID</string>
+    <string name="input_your_password">Input your password</string>
+<!--    Home-->
+    <string name="hello_format">Hello, %1$s</string>
+    <string name="user_id_format">User ID: %1$s</string>
+    <string name="name_history_format">Name : %1$s</string>
+    <string name="date_history_format">Date : %?s</string>
+    <string name="time_history_format">Time : %s$</string>
+
+
 </resources>
